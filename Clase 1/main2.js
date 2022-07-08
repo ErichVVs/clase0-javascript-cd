@@ -10,4 +10,6 @@ let diadenacimiento = "01";
 let sexo = "H";
 let ciudadnacimiento = "DF";
 let claverfc = "FNA";
-console.log (letras1erapellido + letras2doapellido + aniodenacimiento +  mesdenacimiento + diadenacimiento + sexo + ciudadnacimiento + claverfc)
+let restocurp = "VND07";
+console.log (letras1erapellido + letras2doapellido + aniodenacimiento +  mesdenacimiento + diadenacimiento + sexo + ciudadnacimiento + claverfc + restocurp)
+
