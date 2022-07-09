@@ -13,3 +13,5 @@ let claverfc = "FNA";
 let restocurp = "VND07";
 console.log (letras1erapellido + letras2doapellido + aniodenacimiento +  mesdenacimiento + diadenacimiento + sexo + ciudadnacimiento + claverfc + restocurp)
 
+let dinamica = "12";
+
