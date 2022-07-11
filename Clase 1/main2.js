@@ -45,7 +45,7 @@ if (valor) {
 
 // Operador de equivalencia comparamos sí unNumero es igual a 5 ó 6
 
-let unNumero = 6
+/*let unNumero = 6
 console.log (unNumero%2);
 
 if ((unNumero%2) == 0) {
@@ -54,5 +54,23 @@ if ((unNumero%2) == 0) {
 
 if ((unNumero%3) == 0) {
     console.log ("Bacelina pierde");
+}
+*/
+
+// Condiconales if + else
+
+let unColor = "Rojo"
+console.log ("Color:" + unColor);
+
+if (unColor == "Rojo") {
+    console.log ("el color es Rojo");
+}else{
+    console.log ("el color no es Rojo");
+}
+
+if (unColor != "Rojo"){
+    console.log ("el color no es Rojo");
+}else{
+    console.log ("el color es Rojo");
 }
 
