@@ -29,7 +29,7 @@ if (false) {
 
 */
 
-//Condición verdadera II 
+/* Condición verdadera II 
 
 let valor2 = true
 let valor = false 
@@ -40,6 +40,19 @@ if (valor2) {
 
 if (valor) {
     console.log ("No vas a ver éste mensaje");
+} 
+*/
+
+// Operador de equivalencia comparamos sí unNumero es igual a 5 ó 6
+
+let unNumero = 6
+console.log (unNumero%2);
+
+if ((unNumero%2) == 0) {
+    console.log ("Barcelona gana");
 }
 
+if ((unNumero%3) == 0) {
+    console.log ("Bacelina pierde");
+}
 
