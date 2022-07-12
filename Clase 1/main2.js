@@ -93,7 +93,7 @@ if (nombreUsuario != "") {
 }
 */
 
-// Propiedades mayor o menor que
+/* Propiedades mayor o menor que
 
 let precio = 21;
 
@@ -105,4 +105,21 @@ if (precio <  20) {
     alert("El precio es menor que 100");
 } else {
     alert ("El precio es igual o mayor que 100");
+}
+*/
+
+let temperatura = 49;
+
+if (temperatura <= 0) {
+    alert("El clima esta congelante. Por favor usar un abrigo");
+} else if (temperatura <= 10) {
+    alert("El clima está frío!");
+} else if (temperatura <= 20) {
+    alert ("El clima está excelente!");
+} else if (temperatura <= 30) {
+    alert ("El clima está caluroso!");
+} else if (temperatura <= 40) {
+    alert ("El clima muy caliente. Por favor, colocarse bloqueador y salir con una botella de agua!");
+} else {
+    alert ("NO SALGAS DE TU CASA!");   
 }
