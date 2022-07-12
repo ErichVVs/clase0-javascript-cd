@@ -57,7 +57,7 @@ if ((unNumero%3) == 0) {
 }
 */
 
-// Condiconales if + else
+/* Condiconales if + else
 
 let unColor = "Rojo"
 console.log ("Color:" + unColor);
@@ -74,3 +74,35 @@ if (unColor != "Rojo"){
     console.log ("el color es Rojo");
 }
 
+*/
+
+/* Utilizar propiedades prompt para ingresar valores
+
+let nombreUsuario = prompt("Ingresar nombre de usuario");
+
+if (nombreUsuario == "") {
+    alert("1- No ingesaste tu nombre de Usuario!");
+} else {
+    alert("1- El nombre de usuario ingresado es: " + nombreUsuario);
+}
+
+if (nombreUsuario != "") {
+    alert("2- El usuario ingresado es: " + nombreUsuario);
+} else {
+    alert("2- No ingreaste tu nombre de Usuario")
+}
+*/
+
+// Propiedades mayor o menor que
+
+let precio = 21;
+
+if (precio <  20) {
+    alert("El precio es menor o igual que 20");
+} else if (precio < 50) {
+    alert("El precio es menor que 50");
+} else if (precio < 100) {
+    alert("El precio es menor que 100");
+} else {
+    alert ("El precio es igual o mayor que 100");
+}
