@@ -141,3 +141,12 @@ if (esMayor5) {
 }
 */
 
+// Condiciones compuesta con ||
+
+let nombreIngresado = prompt("Ingresar nombre");
+
+if((nombreIngresado == "ANA") || (nombreIngresado =="ana")){
+    alert("El nombre ingresado es Ana");
+}else{
+    alert("El nombre ingresado NO ES Ana");
+}
