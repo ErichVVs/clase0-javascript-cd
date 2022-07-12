@@ -141,7 +141,7 @@ if (esMayor5) {
 }
 */
 
-// Condiciones compuesta con ||
+/* Condiciones compuesta con ||
 
 let nombreIngresado = prompt("Ingresar nombre");
 
@@ -150,3 +150,13 @@ if((nombreIngresado == "ANA") || (nombreIngresado =="ana")){
 }else{
     alert("El nombre ingresado NO ES Ana");
 }
+*/
+
+let nombreIngresado = prompt("Ingresar nombre");
+
+if((nombreIngresado !="") && ((nombreIngresado == "EMA") || (nombreIngresado == "ema"))){
+    alert("Hola Ema");
+}else{
+    alert("Error: Ingresar nombre valido");
+}
+
