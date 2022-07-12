@@ -108,7 +108,7 @@ if (precio <  20) {
 }
 */
 
-let temperatura = 49;
+/*let temperatura = 49;
 
 if (temperatura <= 0) {
     alert("El clima esta congelante. Por favor usar un abrigo");
@@ -123,3 +123,21 @@ if (temperatura <= 0) {
 } else {
     alert ("NO SALGAS DE TU CASA!");   
 }
+*/
+
+/*Operadores Booleanos
+
+let numero = 6;
+let esMayor5 = (numero > 5);
+console.log(typeof numero);
+console.log(numero);
+console.log(typeof esMayor5);
+console.log(esMayor5);
+
+if (esMayor5) {
+    alert("Es Boolean True!");
+} else {
+    alert("No se cumplió la condición");
+}
+*/
+
