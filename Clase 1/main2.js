@@ -152,6 +152,7 @@ if((nombreIngresado == "ANA") || (nombreIngresado =="ana")){
 }
 */
 
+/*
  let nombreIngresado = prompt("Ingresar nombre").toLowerCase();
 
 if((nombreIngresado !="") && ((nombreIngresado == "EMA") || (nombreIngresado == "ema"))){
@@ -160,6 +161,11 @@ if((nombreIngresado !="") && ((nombreIngresado == "EMA") || (nombreIngresado == 
     alert("Error: Ingresar nombre valido");
 }
 
+*/
+
+for (let i = 0; i < 10; i++){
+    alert(i);
+}
 
 
 
