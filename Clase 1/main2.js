@@ -163,9 +163,12 @@ if((nombreIngresado !="") && ((nombreIngresado == "EMA") || (nombreIngresado == 
 
 */
 
+/*
 for (let i = 0; i < 10; i++){
     alert(i);
-}
+} */
 
+let miPrimerVariable = "Mi primera variable!";
+console.log(miPrimerVariable);
 
 
